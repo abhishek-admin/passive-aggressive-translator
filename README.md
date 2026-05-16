@@ -32,4 +32,4 @@ A Chrome extension that translates office jargon and passive-aggressive language
 
 ---
 
-Built by [@happy_ships](https://x.com/happy_ships) · Day 5/180
+Built by [@happy_ships](https://x.com/happy_ships) · Day 3/180
