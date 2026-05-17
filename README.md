@@ -4,7 +4,7 @@
 
 A Chrome extension that translates office jargon and passive-aggressive language into plain, honest English. Paste any email or Slack message — get back what they actually mean, the subtext, and exactly how to respond.
 
-![Demo](demo.gif)
+![Demo](pagt.gif)
 
 ## What it does
 
