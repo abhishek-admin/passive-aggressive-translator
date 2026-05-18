@@ -223,7 +223,7 @@ Be witty but accurate. Use **bold** for key phrases.`;
   }
 
   actionBtn.addEventListener('click', runAction);
-  retryBtn.addEventListener('click', runAction);
+  retryBtn.addEventListener('click', () => showState('idle'));
   rerunBtn.addEventListener('click', resetToIdle);
 
   copyBtn.addEventListener('click', () => {
