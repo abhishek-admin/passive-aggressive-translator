@@ -1,63 +1,73 @@
-# Passive Aggressive Translator
+# 🤫 Passive Aggressive Translator
 
-> Corporate speak decoded. Passive aggression exposed.
+> **Corporate speak decoded. Passive aggression exposed.**
+> Instantly translates loaded email jargon, corporate avoidance strategies, and subtle Slack manipulation into plain, honest English.
 
-**Day 03 / 180 — 180 Days of Building**
+<div align="center">
 
-You know the feeling — an email lands and something's off. It's polite on the surface but loaded underneath. This extension translates office jargon and passive-aggressive language into plain, honest English. Paste any email or Slack message and get back what they *actually* mean, the subtext, and exactly how to respond.
+[![Chrome MV3](https://img.shields.io/badge/Chrome-Manifest_V3-7C6AFF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://developer.chrome.com/docs/extensions/)
+[![Gemini AI](https://img.shields.io/badge/Gemini-2.0_Flash-D4AF37?style=for-the-badge&logo=google-gemini&logoColor=white)](https://ai.google.dev/)
+[![License](https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge)](LICENSE)
+[![Streak](https://img.shields.io/badge/Day-03_/_180-vanilla?style=for-the-badge&logo=github&logoColor=white)](https://x.com/happy_ships)
 
-![Demo](pagt.gif)
-
----
-
-## What it does
-
-- **What They Actually Mean** — blunt, honest translation with no corporate softening
-- **Subtext** — the power dynamics, avoidance tactics, and manipulation explained clearly
-- **How to Respond** — a direct, confident reply that doesn't play their game
-
-Works on any text: emails, Slack messages, meeting notes, performance reviews, passive-aggressive Jira comments.
+</div>
 
 ---
 
-## How to use
+## 📖 The Problem & The Solution
 
-1. Click the extension icon
-2. Paste any email, Slack message, or meeting note into the box
-3. Hit **Translate**
-4. Get the unfiltered truth in seconds
+Every professional knows the feeling: an email or Slack message lands in your inbox, and while the words are perfectly polite on the surface, the underlying tone is loaded with passive aggression, blame shifting, or avoidance.
 
----
+**Passive Aggressive Translator** decodes the corporate theater in seconds. Simply paste any email, Slack ping, performance review, or passive Jira comment. The AI breaks down exactly what they *actually* mean, explains the political subtext at play, and drafts a direct, highly professional response that halts the passive-aggressive game in its tracks.
 
-## Getting Started
-
-### 1. Load the extension
-1. Go to `chrome://extensions`
-2. Enable **Developer mode** (top right toggle)
-3. Click **Load unpacked** → select the `passive-aggressive-translator` folder
-
-### 2. Add your API key
-On first launch, the extension automatically shows a setup screen asking for your API key.
-
-You only need **one** of the following — enter whichever you have:
-
-- **Gemini API key** — free at [aistudio.google.com](https://aistudio.google.com/apikey)
-- **OpenRouter API key** — free tier at [openrouter.ai](https://openrouter.ai)
-
-If both are saved, Gemini is used first with OpenRouter as automatic fallback when quota runs out. You can update or change keys anytime via the **⚙** icon in the popup.
+![Demo Screen](pagt.gif)
 
 ---
 
-## Tech stack
+## ⚡ Core Features
 
-- Chrome Extension Manifest V3
-- Gemini 2.0 Flash (primary) → OpenRouter fallback
-- Vanilla JS — no frameworks, no build step
+- 💀 **Blunt, Honest Translation** — Strips away the layers of corporate softening and exposes the sender's core point, verbatim and unfiltered.
+- 🕵 **Subtext & Dynamics Decoder** — Clearly explains the underlying power dynamics, blame avoidance, or manipulation attempts at play.
+- 🛡 **No-Nonsense Response Generator** — Drafts a highly confident, professional reply that addresses the core issue directly without engaging in the passive-aggressive game.
+- 💼 **Multi-Platform Ready** — Works on any textual source: emails, Slack channels, Jira tickets, performance reviews, or meeting notes.
 
 ---
 
-## Part of 180 Days of Building
+## 🛠 Getting Started
 
-Shipping one AI Chrome extension every day for 180 days.
+### 1. Load the Extension
+1. Clone this repository locally.
+2. Open Chrome and navigate to `chrome://extensions`.
+3. Toggle on **Developer mode** in the top right.
+4. Click **Load unpacked** and select the `passive-aggressive-translator` folder.
 
-Follow along: [@happy_ships](https://x.com/happy_ships)
+### 2. Configure Your Keys
+Launch the extension popup and click the **⚙** gear icon to configure your keys:
+- **Gemini Key** — Get one for free at [aistudio.google.com](https://aistudio.google.com/apikey).
+- **OpenRouter Key** (fallback) — Get one at [openrouter.ai](https://openrouter.ai).
+
+> [!IMPORTANT]
+> All pasted text is sent directly to secure AI endpoints. Your keys and workspace configurations are kept private inside your local browser storage.
+
+---
+
+## 🔧 Technical Stack
+
+- **Extension Framework**: Chrome Extension Manifest V3
+- **Primary AI Engine**: Gemini 2.0 Flash via AI Studio SDK
+- **Fallback Engine**: OpenRouter API
+- **Client Implementation**: Pure Vanilla JS, no build steps, zero bulky dependencies. Runs directly out of the folder.
+
+---
+
+## 📅 180 Days of Building
+This project is part of a larger developer journey: shipping one useful AI tool/extension every day for 180 days.
+
+Follow along for daily releases and tech-stack deep dives:
+- **Twitter / X**: [@happy_ships](https://x.com/happy_ships)
+- **Day**: `03 / 180`
+- **Next Release**: `Recipe Rage Cleaner`
+
+---
+
+*Licensed under the [MIT License](LICENSE).*
